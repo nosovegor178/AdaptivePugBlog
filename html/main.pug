@@ -1,0 +1,22 @@
+mixin topic-card(image, type, topic)
+    .main__card
+        .main__card-image
+            img.main__card-picture(src=image)
+        .main__card-type=type
+        .main__card-topic=topic
+        .main__card-user
+            span.main__card-author Niek Bove
+            span.main__card-date April 8, 2018
+            span.main__card-views 20183K Views 
+        .main__card-description Structured gripped tape invisible moulded cups firm hold strong powermesh front liner sport detail. Warmth comfort hangs loosely from the body large pocket at the front full button...
+main 
+    .main
+        +topic-card("../media/png/1.png", "Lifestyle", "Right For Your Excercise Regime")
+        +topic-card("../media/png/2.png", "Lifestyle", "The Look: Perfect Balance")
+        +topic-card("../media/png/3.png", "Style", "Fun things to do in Rome")
+        +topic-card("../media/png/4.png", "Lifestyle", "Coffee is the best drink")
+        +topic-card("../media/png/5.png", "Lifestyle", "9 ways to have fun")
+        +topic-card("../media/png/6.png", "Style", "Find your inspiration")
+        +topic-card("../media/png/7.png", "Lifestyle", "Communication is a way to succes")
+        +topic-card("../media/png/8.png", "Lifestyle", "Wonderfull bridges")
+        +topic-card("../media/png/9.png", "Style", "Disco")
