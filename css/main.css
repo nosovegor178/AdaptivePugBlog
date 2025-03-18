@@ -2,7 +2,6 @@
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 .main__card {
@@ -100,7 +99,7 @@
 
 @media screen and (min-width: 1024px) {
     .main {
-        margin: 1.875rem 0 0 0;
+        justify-content: center;
     }
 
     .main__card {
